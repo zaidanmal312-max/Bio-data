@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biografi - Zaidan Akmal Darmawan</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            color: #333;
+            line-height: 1.6;
+            padding: 20px;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            background: #ffffff;
+            width: 100%;
+            max-width: 600px;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 25px;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 15px;
+        }
+
+        .header h1 {
+            color: #2c3e50;
+            font-size: 24px;
+            margin-bottom: 5px;
+        }
+
+        .header p {
+            color: #7f8c8d;
+            font-size: 14px;
+        }
+
+        .section {
+            margin-bottom: 20px;
+        }
+
+        .section h2 {
+            font-size: 18px;
+            color: #34495e;
+            margin-bottom: 10px;
+            border-left: 4px solid #3498db;
+            padding-left: 8px;
+        }
+
+        .bio-grid {
+            display: grid;
+            grid-template-columns: 140px 1fr;
+            gap: 8px;
+            font-size: 14px;
+        }
+
+        .bio-label {
+            font-weight: 600;
+            color: #555;
+        }
+
+        .bio-value {
+            color: #333;
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        ul li {
+            background: #f8f9fa;
+            padding: 8px 12px;
+            margin-bottom: 6px;
+            border-radius: 6px;
+            font-size: 14px;
+            border-left: 3px solid #2ecc71;
+        }
+
+        .motto {
+            background: #eaf2f8;
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+            font-style: italic;
+            color: #2980b9;
+            font-weight: 500;
+            font-size: 14px;
+            border: 1px dashed #3498db;
+        }
+
+        @media (max-width: 480px) {
+            .bio-grid {
+                grid-template-columns: 1fr;
+                gap: 2px;
+            }
+            .bio-label {
+                margin-top: 5px;
+            }
+            .container {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="header">
+            <h1>Zaidan Akmal Darmawan</h1>
+            <p>Profil & Biografi Singkat</p>
+        </div>
+
+        <div class="section">
+            <h2>Informasi Pribadi</h2>
+            <div class="bio-grid">
+                <div class="bio-label">Nama Panggilan</div>
+                <div class="bio-value">: Zaidan</div>
+                
+                <div class="bio-label">TTL</div>
+                <div class="bio-value">: Jakarta, 04 Agustus 2009</div>
+                
+                <div class="bio-label">Jenis Kelamin</div>
+                <div class="bio-value">: Laki-Laki</div>
+                
+                <div class="bio-label">Agama</div>
+                <div class="bio-value">: Islam</div>
+                
+                <div class="bio-label">Kewarganegaraan</div>
+                <div class="bio-value">: WNI</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Riwayat Pendidikan</h2>
+            <ul>
+                <li><strong>2012-2014:</strong> TK Amanah At Taqwa</li>
+                <li><strong>2014-2021:</strong> SDN Pondok Petir 03</li>
+                <li><strong>2021-2024:</strong> SMP Muhammadiyah 44 Tangsel</li>
+                <li><strong>2024-Sekarang:</strong> SMA Negeri 10 Depok</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Hobi & Minat</h2>
+            <p style="font-size: 14px; color: #555;">Saya sangat menyukai bermain badminton.</p>
+        </div>
+
+        <div class="section">
+            <h2>Motto Hidup</h2>
+            <div class="motto">
+                "Lelah karena belajar hari ini lebih baik daripada bodoh di masa depan"
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
