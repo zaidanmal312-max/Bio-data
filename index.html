@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biografi - Zaidan Akmal Darmawan</title>
+    <style>
+        /* Pengaturan Dasar */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f0f4f8;
+            color: #333;
+            line-height: 1.6;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        /* Bagian Header / Profil Atas */
+        header {
+            text-align: center;
+            background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+            color: white;
+            padding: 40px 20px;
+            border-radius: 12px;
+            margin-bottom: 25px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        header h1 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        header .motto {
+            font-size: 15px;
+            font-style: italic;
+            opacity: 0.9;
+        }
+
+        /* Kotak Konten (Card) */
+        .card {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        }
+
+        .card h2 {
+            font-size: 18px;
+            color: #2c3e50;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #4facfe;
+            padding-bottom: 5px;
+            display: inline-block;
+        }
+
+        /* Tabel Data Pribadi */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        table td {
+            padding: 8px 0;
+            vertical-align: top;
+        }
+
+        table td:first-child {
+            width: 40%;
+            font-weight: 600;
+            color: #555;
+        }
+
+        /* List Pendidikan */
+        ul.pendidikan {
+            list-style-type: none;
+        }
+
+        ul.pendidikan li {
+            position: relative;
+            padding-left: 20px;
+            margin-bottom: 10px;
+        }
+
+        ul.pendidikan li::before {
+            content: "•";
+            color: #4facfe;
+            font-weight: bold;
+            font-size: 20px;
+            position: absolute;
+            left: 0;
+            top: -4px;
+        }
+
+        .tahun {
+            font-weight: 600;
+            color: #4facfe;
+            margin-right: 5px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        
+        <!-- Header Profil -->
+        <header>
+            <h1>Zaidan Akmal Darmawan</h1>
+            <p class="motto">"Lelah karena belajar hari ini lebih baik daripada bodoh di masa depan"</p>
+        </header>
+
+        <!-- Bagian Data Pribadi -->
+        <section class="card">
+            <h2>Data Pribadi</h2>
+            <table>
+                <tr>
+                    <td>Nama Lengkap</td>
+                    <td>: Zaidan Akmal Darmawan</td>
+                </tr>
+                <tr>
+                    <td>Nama Panggilan</td>
+                    <td>: Zaidan</td>
+                </tr>
+                <tr>
+                    <td>Tempat, Tgl Lahir</td>
+                    <td>: Jakarta, 04 Agustus 2009</td>
+                </tr>
+                <tr>
+                    <td>Jenis Kelamin</td>
+                    <td>: Laki-Laki</td>
+                </tr>
+                <tr>
+                    <td>Agama</td>
+                    <td>: Islam</td>
+                </tr>
+                <tr>
+                    <td>Kewarganegaraan</td>
+                    <td>: WNI</td>
+                </tr>
+            </table>
+        </section>
+
+        <!-- Bagian Riwayat Pendidikan -->
+        <section class="card">
+            <h2>Riwayat Pendidikan</h2>
+            <ul class="pendidikan">
+                <li><span class="tahun">2024 - Sekarang:</span> SMA Negeri 10 Depok</li>
+                <li><span class="tahun">2021 - 2024:</span> SMP MUHAMMADIYAH 44 TANGSEL</li>
+                <li><span class="tahun">2014 - 2021:</span> SDN PONDOK PETIR 03</li>
+                <li><span class="tahun">2012 - 2014:</span> TK AMANAH AT TAQWA</li>
+            </ul>
+        </section>
+
+        <!-- Bagian Hobi & Minat -->
+        <section class="card">
+            <h2>Hobi dan Minat</h2>
+            <p>Saya sangat menyukai bermain badminton.</p>
+        </section>
+
+    </div>
+
+</body>
+</html>
